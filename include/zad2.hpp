@@ -2,8 +2,8 @@
 // Created by Daniil on 02.02.2020.
 //
 
-#ifndef LAB_05_STACK_ZAD2_H
-#define LAB_05_STACK_ZAD2_H
+#ifndef LAB_05_STACK_ZAD2_HPP
+#define LAB_05_STACK_ZAD2_HPP
 
 #include <iostream>
 
@@ -19,11 +19,11 @@ public:
     template <typename ... Args>
     void push_emplace(Args&&... value){
         T obj(value...);
-        container[currentSize]=obj;
+        container[currentSize] = obj;
         currentSize--;
     }
     void push(T&& value){
-        container[currentSize]=value;
+        container[currentSize] = value;
         currentSize--;
     }
     const T& head() const{
@@ -35,7 +35,7 @@ public:
     }
 public:
     T container[STACK_SIZE];
-    unsigned long long currentSize=STACK_SIZE-1;
+    int64_t currentSize = STACK_SIZE-1;
 };
 
-#endif //LAB_05_STACK_ZAD2_H
+#endif //LAB_05_STACK_ZAD2_HPP

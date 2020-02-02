@@ -30,7 +30,7 @@ public:
 
 public:
     T container[STACK_SIZE];
-    int64 currentSize = STACK_SIZE-1;
+    int64_t currentSize = STACK_SIZE-1;
 };
 //http://cppstudio.com/post/5155/
 //info about stack
