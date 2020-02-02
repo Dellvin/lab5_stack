@@ -8,9 +8,7 @@ TEST(Example, EmptyTest) {
     stack1 <int> s;
     int a=48;
     s.push(a);
-    int k=s.head();
     EXPECT_EQ(s.head(), 48);
-
     stack2 <std::string> x;
     x.push("kek");
     x.push("lol");
