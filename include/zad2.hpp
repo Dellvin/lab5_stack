@@ -1,9 +1,10 @@
+// Copyright 2018 Your Name <your_email>
 //
 // Created by Daniil on 02.02.2020.
 //
 
-#ifndef LAB_05_STACK_ZAD2_HPP
-#define LAB_05_STACK_ZAD2_HPP
+#ifndef LAB_05_STACK_ZAD2_HPP_
+#define LAB_05_STACK_ZAD2_HPP_
 
 #include <iostream>
 
@@ -38,4 +39,4 @@ public:
     int64_t currentSize = STACK_SIZE-1;
 };
 
-#endif //LAB_05_STACK_ZAD2_HPP
+#endif //LAB_05_STACK_ZAD2_HPP_
