@@ -14,7 +14,7 @@
 
 
 template <typename T>
-class stack
+class stack2
 {
 public:
     template <typename ... Args>

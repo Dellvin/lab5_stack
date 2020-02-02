@@ -7,7 +7,7 @@
 #define STACK_SIZE 20
 
 template <typename T>
-class stack
+class stack1
 {
 public:
     void push(T&& value){
