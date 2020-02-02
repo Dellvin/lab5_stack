@@ -16,7 +16,6 @@ public:
     }
     void push(const T& value){
         //if(!currentSize)
-        int s = currentSize;
         container[currentSize] = value;
         currentSize--;
     }
