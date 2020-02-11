@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/mingw730_64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/mingw730_64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/mingw730_64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" C:\lr5\lab-05-stack
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/dellvin/Desktop/lr5/lab5_stack
 CMake Error at CMakeLists.txt:14 (include):
   include could not find load file:
 
